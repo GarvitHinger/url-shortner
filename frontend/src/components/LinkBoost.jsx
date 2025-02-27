@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './LinkBoost.css';
 const LinkBoost = () => {
     return (
         <div className='link-boost'>

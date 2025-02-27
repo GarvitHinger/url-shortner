@@ -1,0 +1,24 @@
+.footer {
+    background-color: white; /* Dark Cyan Blue */
+    color: black; /* White text */
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+     /* Cyan border */
+}
+
+.footer a {
+    color: #00bcd4; /* Cyan link */
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer a:hover {
+    color: #ffcc00; /* Golden Yellow on hover */
+    text-decoration: underline;
+}
+
