@@ -1,0 +1,42 @@
+.introduction {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.introduction-left {
+    width: 60%;
+    padding-right: 10%;
+}
+
+.introduction-left h3 {
+    font-size: 4rem;
+}
+
+.introduction-left p {
+    font-size: 1rem;
+    opacity: 0.4;
+}
+
+.introduction-left button {
+    color: white;
+    background-color: hsl(180, 66%, 49%);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+}
+
+
+
+.introduction-right {
+    width: 40%;
+}
+
+.introduction-right img {
+    height: 80%;
+}

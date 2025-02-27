@@ -1,0 +1,97 @@
+.url-row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8rem 1.2rem;
+    border-radius: 8px;
+    background: #f9f9f9;
+    margin-bottom: 0.8rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+/* Background color based on status */
+.url-row.active {
+    background-color: #2acfcf;
+}
+
+.url-row.inactive {
+    background-color: #e57373;
+}
+
+.original-url,
+.short-url,
+.clicks {
+    flex: 2;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.clicks {
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    flex: 1;
+    min-width: 80px;
+}
+
+.copy {
+    flex: 1;
+    padding: 0.5rem;
+    min-width: 80px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2a9df4;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.menu-container {
+    position: relative;
+}
+
+.menu-button {
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.menu {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 120px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu button {
+    width: 100%;
+    padding: 0.6rem;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+}
+
+.toggle {
+    background: #f0f0f0;
+}
+
+.delete {
+    background: #e74c3c;
+    color: white;
+}
+
+.menu button:hover {
+    opacity: 0.8;
+}

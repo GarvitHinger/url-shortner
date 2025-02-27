@@ -1,0 +1,57 @@
+[
+  {
+    "_id": "67ba02e21a6caa661be71887",
+    "originalUrl": "www.instagram.com",
+    "shortUrl": "4m03d",
+    "owner": "garvit",
+    "clicks": 0,
+    "status": "inactive",
+    "createdAt": "2025-02-22T17:01:22.325Z",
+    "updatedAt": "2025-02-22T17:05:58.639Z",
+    "__v": 0
+  },
+  {
+    "_id": "67ba030b1a6caa661be7188b",
+    "originalUrl": "www.facebook.com",
+    "shortUrl": "emzp8i",
+    "owner": "garvit",
+    "clicks": 0,
+    "status": "active",
+    "createdAt": "2025-02-22T17:02:03.129Z",
+    "updatedAt": "2025-02-22T17:02:03.129Z",
+    "__v": 0
+  },
+  {
+    "_id": "67ba03111a6caa661be7188f",
+    "originalUrl": "www.twitter.com",
+    "shortUrl": "i2hi8m",
+    "owner": "garvit",
+    "clicks": 7,
+    "status": "active",
+    "createdAt": "2025-02-22T17:02:09.986Z",
+    "updatedAt": "2025-02-24T10:19:52.015Z",
+    "__v": 0
+  },
+  {
+    "_id": "67ba03231a6caa661be71897",
+    "originalUrl": "www.slack.com",
+    "shortUrl": "xc1h2",
+    "owner": "garvit",
+    "clicks": 0,
+    "status": "active",
+    "createdAt": "2025-02-22T17:02:27.752Z",
+    "updatedAt": "2025-02-22T17:02:27.752Z",
+    "__v": 0
+  },
+  {
+    "_id": "67ba032d1a6caa661be7189b",
+    "originalUrl": "www.leetcode.com",
+    "shortUrl": "zaixu",
+    "owner": "garvit",
+    "clicks": 0,
+    "status": "active",
+    "createdAt": "2025-02-22T17:02:37.083Z",
+    "updatedAt": "2025-02-22T17:02:37.083Z",
+    "__v": 0
+  }
+]

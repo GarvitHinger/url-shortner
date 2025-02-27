@@ -1,0 +1,35 @@
+.advance-stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.advance-stats-upper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding: 20px;
+}
+
+.advance-stats-upper p {
+    margin: 1rem;
+    opacity: 0.5;
+    text-align: center;
+}
+
+.advance-stats-lower {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    height: 200px;
+}
+
+.advance-stat-box {
+    background: white;
+    padding: 1rem;
+    height: 100%;
+    
+}

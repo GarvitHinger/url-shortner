@@ -1,0 +1,21 @@
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.log-info button {
+    color: white;
+    background-color: hsl(180, 66%, 49%);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.log-info button:hover {
+    opacity: 0.5;
+}

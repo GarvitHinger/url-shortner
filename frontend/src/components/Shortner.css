@@ -1,0 +1,41 @@
+.shortner {
+    background-color: hsl(257, 27%, 26%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    /* background-image: url('your-background-image.jpg'); Replace with your image */
+    background-image:url('../../images/bg-shorten-desktop.svg');
+    background-size: cover;
+    /* background-position: center; */
+    border-radius: 10px;   
+    height: 4rem;
+}
+
+.shortner-input {
+    width: 75%;
+}
+
+.shortner-input input {
+    width:100%;
+    height: 2rem;
+}
+
+.shortner-button {
+    width:15%;
+}
+
+.shortner-button button {
+    height: 2rem;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: hsl(180, 66%, 49%);
+    border-style: none;
+}
+
+.shortner-button button:hover {
+    opacity: 1;
+    
+}
