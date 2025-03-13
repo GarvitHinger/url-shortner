@@ -39,4 +39,5 @@
 
 .introduction-right img {
     height: 80%;
+    object-fit: cover;
 }

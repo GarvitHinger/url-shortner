@@ -31,9 +31,13 @@ export const toggleUrl = async (req, res) => {
         if (!url) {
             return res.status(404).json({ error: "URL not found" });
         }
-        url.status = url.status == "active" ? "inactive" : "active";
+        url.status = url.status === "active" ? "inactive" : "active";
         await url.save();
-        res.status(200).json({ status: "success", message: `URL ${url.status}`,shortUrl: url.shortUrl});
+        res.status(200).json({
+            status: "success",
+            message: `URL ${url.status}`,
+            shortUrl: url.shortUrl
+        });
     } catch (error) {
         console.error("Error toggling URL status:", error);
         res.status(500).json({ status: "error", message: "Internal Server Error" });

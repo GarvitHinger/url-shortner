@@ -9,7 +9,7 @@
     background-image: url("../../images/bg-boost-desktop.svg");
     background-color: hsl(257, 27%, 26%);
     color: white;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     /* width: 1200px; */
 }
 

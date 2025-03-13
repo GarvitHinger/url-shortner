@@ -2,12 +2,17 @@
 import data from "../data.json";
 import UrlRow from "./UrlRow.jsx";
 import "./ShortUrlHistory.css";
-const ShortUrlHistory = () => {
+const ShortUrlHistory = ({ urlList,fetchUrlHistory }) => {
+  
   return (
     <div className="short-url-history-block">
           {
-              data.map((url) => (
-                  <UrlRow key={url._id} urlData={url} />
+              urlList.map((url) => (
+                <UrlRow
+                  key={url._id} urlData={url} 
+                  fetchUrlHistory={fetchUrlHistory}
+                  
+                  />
               ))
           }
     </div>

@@ -1,6 +1,6 @@
 .footer {
-    background-color: white; /* Dark Cyan Blue */
-    color: black; /* White text */
+    background-color: hsl(257, 27%, 26%); 
+    color: white; /* White text */
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;

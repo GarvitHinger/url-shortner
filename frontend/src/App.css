@@ -1,6 +1,14 @@
 .container {
-    padding: 20px;
-    width: 90%;
-    max-width: 1200px;
+
+    
+    width: 100vw;
+    overflow-x: hidden;
     margin: auto;
-  }
+}
+
+.container-main {
+  width: 90%;
+  padding: 20px;
+  margin: auto;
+  
+}
